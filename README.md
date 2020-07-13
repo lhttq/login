@@ -2,7 +2,9 @@
 
 ## Project setup
 ```
-npm install
+npm install vue
+npm install vue-router
+npm install 
 ```
 
 ### Compiles and hot-reloads for development
