@@ -7,6 +7,7 @@ import newList from "@/components/news/newList";
 import imgList from "@/components/imagesList/imgList";
 import newsDetail from "@/components/news/newsDetail";
 import imgInfo from "@/components/imagesList/imgInfo";
+import goodsList from "@/components/goods/goodsList";
 
 var router = new VueRouter({
     routes:[
@@ -20,6 +21,7 @@ var router = new VueRouter({
         {path: '/HomeContainer/newsDetail/:id',component: newsDetail},
         {path: '/HomeContainer/imgList',component: imgList},
         {path: '/HomeContainer/imgInfo',component: imgInfo},
+        {path: '/HomeContainer/goodsList',component: goodsList},
     ],
     linkActiveClass:'mui-active',
 });

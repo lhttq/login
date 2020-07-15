@@ -7,8 +7,9 @@ import VueRouter from "vue-router"
 import './lib/mui/css/mui.min.css'
 import './lib/mui/css/icons-extra.css'
 //导入layui相关样式
-import 'layui-src/build/css/layui.mobile.css'
-import moment from 'moment'
+import 'layui-src/build/css/layui.mobile.css';
+
+import moment from 'moment';
 //导入axios模块
 import axios from 'axios';
 //导入路由模块

@@ -1,26 +1,43 @@
-# login
-
-## Project setup
+# 类新闻类移动端网页应用
+### 开始
 ```
-npm install vue
-npm install vue-router
-npm install 
-```
-
-### Compiles and hot-reloads for development
-```
+//运行
 npm run serve
-```
-
-### Compiles and minifies for production
-```
+//编译
 npm run build
 ```
-
-### Lints and fixes files
+### 使用库
 ```
-npm run lint
+vue
+vue-router
+//异步请求
+axios
+//缩略图处理
+vue-preview
+//ui库
+mui
+mintUI
+layui
+//时间日期处理类
+moment
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 项目页面介绍
+- 首页
+    * 使用mui的header 和 底部tab
+        + 底部tab除首页外其他页面为空
+    * 使用mintUI的轮播图
+    * 使用mui的九宫格布局
+        + 新闻页面
+            * 使用mui的列表
+            * 使用moment的时间格式化
+            * 新闻详情页面
+                + 使用自定义的评论组件
+        + 图片页面
+            * 使用mui的分类滑动选项卡
+            * 使用mui的图片懒加载
+            * 图片详情
+                + 使用vue-preview的缩略图
+                + 使用自定义的图片组件
+        + 商品页面
+            * 自定义的商品详情页面
+            * 使用弹性盒模型进行总体布局
