@@ -4,8 +4,10 @@ import MemberContainer from "@/components/MemberContainer";
 import CartContainer from "@/components/CartContainer";
 import SearchContainer from "@/components/SearchContainer";
 import newList from "@/components/news/newList";
-import imgList from "@/components/children/imgList";
+import imgList from "@/components/imagesList/imgList";
 import newsDetail from "@/components/news/newsDetail";
+import imgInfo from "@/components/imagesList/imgInfo";
+
 var router = new VueRouter({
     routes:[
         {path:'/',component: HomeContainer},
@@ -15,7 +17,9 @@ var router = new VueRouter({
         {path: '/SearchContainer',component: SearchContainer},
         {path:'/HomeContainer/NewList',component:newList},
         {path:'/HomeContainer/imgList',component:imgList},
-        {path: '/HomeContainer/newsDetail/:id',component: newsDetail}
+        {path: '/HomeContainer/newsDetail/:id',component: newsDetail},
+        {path: '/HomeContainer/imgList',component: imgList},
+        {path: '/HomeContainer/imgInfo',component: imgInfo},
     ],
     linkActiveClass:'mui-active',
 });

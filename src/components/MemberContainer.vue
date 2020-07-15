@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="member">
         <h1>会员</h1>
     </div>
 </template>

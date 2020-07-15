@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="carts">
         <h1>购物车</h1>
     </div>
 </template>

@@ -23,7 +23,7 @@
     }
 </script>
 
-<style scoped  type="text/css" lang="less">
+<style type="text/css" lang="less" scoped>
     #detail {
         background-color: #f3f3f3;
         padding: 0 4px;

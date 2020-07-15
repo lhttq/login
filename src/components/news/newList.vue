@@ -33,7 +33,6 @@
                 .then(response => {
                     this.news = response.data.msg;
                     console.log(this.news);
-
                 })
                 .catch((error) => { // 请求失败处理
                     Toast(this.err);
@@ -44,7 +43,7 @@
     }
 </script>
 
-<style scoped type="text/css" lang="less">
+<style type="text/css" lang="less" scoped >
     .mui-table-view{
         li{
             h1{
