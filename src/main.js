@@ -16,13 +16,7 @@ import axios from 'axios';
 import router from "@/router";
 //导入mintUI相关组件
 import mintUi from 'mint-ui'
-// import { Header,Swipe, SwipeItem,Button} from 'mint-ui';
 import 'mint-ui/lib/style.css'
-// Vue.component(Header.name, Header);
-// Vue.component(Swipe.name, Swipe);
-// Vue.component(SwipeItem.name, SwipeItem);
-// Vue.component(Button.name, Button);
-// 引入vue-photoswipe模块
 import VuePreview from 'vue-preview';
 Vue.use(VuePreview);
 
